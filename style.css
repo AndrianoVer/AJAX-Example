@@ -1,0 +1,137 @@
+/* ===== Reset start ===== */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: #111;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 26px;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+/* ===== Reset end ===== */
+
+.container {
+	max-width: 1200px;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.age,
+.name {
+	display: block;
+	font-weight: 700;
+}
+
+#create_new_user{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.our_users{
+	display: inline-flex;
+	flex-direction: column;
+}
+
+.user-card {
+	position: relative;
+	display: inline-block;
+	width: 200px;
+	height: 80px;
+	background-color: greenyellow;
+	border: 1px solid black;
+	margin-bottom: 5px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.user-card:hover{
+	transform: scale(1.05);
+	transition: ease-in-out 0.3s;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.user-delete{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	right: 5px;
+	top: 5px;
+	cursor: pointer;
+}
+
+#create_new_user{
+	font-size: 12px;
+	font-weight: normal;
+	color: #fff;
+	border: 1px solid #fc5f45;
+	outline: none;
+	box-shadow: none;
+	padding: 5px 10px;
+	background-color: #fc5f45;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor:pointer;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	transition: 0.5s ease-out all;
+}
+
+#create_new_user:hover {
+	background-color: white;
+	color: #fc5f45;
+}
+
+.load_users{
+	font-size: 12px;
+	font-weight: normal;
+	color: #fff;
+	border: 1px solid #77cc16;
+	outline: none;
+	box-shadow: none;
+	padding: 5px 10px;
+	background-color: #77cc16;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor:pointer;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	transition: 0.5s ease-out all;
+	margin-bottom: 10px;
+}
+
+.load_users:hover {
+	background-color: white;
+	color: #77cc16;
+}
+
+
+
+
+
+

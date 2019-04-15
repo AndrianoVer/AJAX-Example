@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="container">
+		<form action="#.php">
+			<label for="name" class="name">Name:</label>
+			<input type="text" id="name">
+			<label for="age" class="age">Age:</label>
+			<input type="text" id="age">
+			<button type="submit" id="create_new_user">Create new User</button>
+			<button type="button" class="load_users">Load Users</button>
+		</form>
+		<div class="our_users"></div>
+	</div>
+	
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="js/app-hw.js"></script>
+</body>
+</html>
